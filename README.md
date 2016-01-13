@@ -6,10 +6,10 @@ Utiliza as ferramentas : `maven`, `jpa` , `primefaces` , `persistence hibernate`
 
 
   O código esta configurado para persistir no banco de dados mysql versão 5.1+. Para maiores detalhes, podemos acessar o arquivo `persistence.xml`, na pasta `META-INF`, e atribuir um novo valor para o `jta-data-source"` conforme as específicações do servidor.<br />
-  Servico contém uma interface web para upload de arquivos XML. E seu processo parse é realizado posteriormente pelos arquivos beans. <br />
-  O Schema configurado para esse protótipo, chama-se `Cliente.xsd`. Ele pode ser visualizado na pasta `main/resources/Schemas/` ; e um exemplo xml, esta na pasta `test/resources/XML/Cliente/`.<br />
+  Servico contém uma interface web para upload de arquivos `xml`. E seu processo parse é realizado posteriormente pelos arquivos beans. <br />
+  O `Schema` configurado para esse protótipo, chama-se `Cliente.xsd`. Ele pode ser visualizado na pasta `main/resources/Schemas/` ; e um exemplo `xml`, esta na pasta `test/resources/XML/Cliente/`.<br />
   <br />
-  O servidor de aplicação escolhido é o glassfish. A facilidade na configuração e perfomance na maquina, utilizando `Linux/debian`, foram um dos pontos a serem levados em consideração para utilizá-lo.<br />
+  O servidor de aplicação escolhido é o `glassfish`. A facilidade na configuração e perfomance na maquina, utilizando `Linux/debian`, foram um dos pontos a serem levados em consideração para utilizá-lo.<br />
   <br />
 <br />
   Configurações importantes : <br />
