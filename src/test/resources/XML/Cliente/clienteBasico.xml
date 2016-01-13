@@ -7,7 +7,7 @@ and open the template in the editor.
 
 <Clientes
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
-    xsi:noNamespaceSchemaLocation='file:/home/jefferson/NetBeansProjects/servico/src/main/resources/schemas/ClienteSchema.xsd'>
+    xsi:noNamespaceSchemaLocation='src/main/resources/schemas/ClienteSchema.xsd'>
     <cliente id="">
         <nome></nome>
         <idade></idade>
