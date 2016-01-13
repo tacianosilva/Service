@@ -1,6 +1,6 @@
 # Servico
 
-Service é um projeto prótotipo de leitura de arquivos XML e persistência em banco de dados. 
+Servico é um projeto prótotipo de leitura de arquivos XML e persistência em banco de dados. 
 
 Utiliza as ferramentas : maven, jpa , primefaces , persistence hibernate e glassfish. 
 
