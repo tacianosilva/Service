@@ -15,3 +15,14 @@ Utiliza as ferramentas : `maven`, `jpa` , `primefaces` , `persistence hibernate`
   Configurações importantes : 
   
   Servico cria uma pasta `servicebr` no caminho `/tmp/`. Portanto, toda manipulação dos arquivos XML e, futuramente, arquivos compactados zip, ocorrem lá. De forma que o leitor do sistema funcione, será necessário copiar o arquivo `Schema.xsd` para a pasta `servicebr/Schema`, o qual será gerado em conjunto com a pasta principal em tempo de execução.
+  
+  
+  Outras informações:
+  
+  Sistema operacional : `LINUX/DEBIAN 8.2.x`
+  Glassfish           : `4.1`
+  JDK                 : java version `1.7.0_91`
+  Apache Maven        : `3.0.5`
+  Primefaces          : `5.0`
+  Hibernate           : `4.3.1 Final`
+  Package gerado      : `war`
