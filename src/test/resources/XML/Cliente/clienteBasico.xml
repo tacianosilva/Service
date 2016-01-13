@@ -8,29 +8,12 @@ and open the template in the editor.
 <Clientes
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='src/main/resources/schemas/ClienteSchema.xsd'>
-    <cliente id="">
-        <nome></nome>
-        <idade></idade>
-        <profissao></profissao>
-        <sexo></sexo>
-    </cliente>
-    <cliente id="">
-        <nome></nome>
-        <idade></idade>
-        <profissao></profissao>
-        <sexo></sexo>
-    </cliente>
-    <cliente id="">
-        <nome></nome>
-        <idade></idade>
-        <profissao></profissao>
-        <sexo></sexo>
-    </cliente>
-    <cliente id="">
-        <nome></nome>
-        <idade></idade>
-        <profissao></profissao>
-        <sexo></sexo>
-    </cliente>
-
+    
+    <cliente>
+    <nome>Rogerio Ceni</nome>
+    <idade>42</idade>
+    <profissao>Ex. Jogador de Futebol</profissao>
+    <sexo>M</sexo>
+  </cliente>
+  
 </Clientes>
