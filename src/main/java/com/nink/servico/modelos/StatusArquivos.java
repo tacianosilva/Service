@@ -1,7 +1,7 @@
 /**
- * 
+ *
  */
-package modelos;
+package com.nink.servico.modelos;
 
 import java.io.Serializable;
 
@@ -16,13 +16,13 @@ import org.hibernate.validator.constraints.NotEmpty;
 /**
  * @author jefferson
  *
- * Essa classe é uma tabela do sistema. Necessário para gerar log em run-time para usuário final. 
+ * Essa classe é uma tabela do sistema. Necessário para gerar log em run-time para usuário final.
  */
 @Entity(name = "StatusArquivos")
 public class StatusArquivos implements Serializable {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
 
