@@ -56,20 +56,6 @@ public class HibernateDesignTests {
     }
 
     /**
-     * The test verifies all entities if they follows the Rule:
-     * Override both equals(java.lang.Object) and hashCode().
-     */
-    @Test
-    public void testHashCodeAndEqualsRuleAll() {
-        rule = new HashCodeAndEqualsRule(dw);
-        rule.setClassNodes(entities);
-        softAssert.assertTrue(rule.checkRule(), "\ncheckRule Failed");
-        softAssert.assertEquals("", rule.getReport(), "\nreport: \n" + rule.getReport());
-
-        softAssert.assertAll();
-    }
-
-    /**
      * The test verifies each persistence entity if they follows the Rule:
      * Override both equals(java.lang.Object) and hashCode().
      */
